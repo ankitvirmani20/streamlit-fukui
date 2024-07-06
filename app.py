@@ -1,4 +1,4 @@
-eimport streamlit as st
+import streamlit as st
 import pathlib
 from PIL import Image
 import google.generativeai as genai
