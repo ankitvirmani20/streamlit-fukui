@@ -1,4 +1,4 @@
-import streamlit as st
+eimport streamlit as st
 import pathlib
 from PIL import Image
 import google.generativeai as genai
@@ -51,8 +51,8 @@ def send_message_to_model(message, image_path):
 
 # Streamlit app
 def main():
-    st.title("Gemini 1.5 Pro, UI to Code 👨‍💻 ")
-    st.subheader('Made with ❤️ by [Skirano](https://x.com/skirano)')
+    st.title("Generative AI Based Analysis of Fukui Sightseeing 👨‍💻 ")
+    st.subheader('Made with ❤️ by [Ankit](https://www.linkedin.com/in/ankitvirmani/)')
 
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
